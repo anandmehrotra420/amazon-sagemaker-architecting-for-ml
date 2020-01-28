@@ -16,6 +16,7 @@ Modeling Stragegy:
 Extract the negative reviews. 
 
 First attempt: load into Amazon Comprehend and automatically extract topics.
+
 Second attempt: Build our own topic modeler; train our data using either LDA or NTM. Alt: Re-label a subset of our data in an attempt to build more accurate models to increase classification granularity. Use our own keywords to label docs/create subsets.
 				
 Compare first and second attempts. Proceed from there.
